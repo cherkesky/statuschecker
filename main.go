@@ -22,9 +22,6 @@ func main() {
 
 	}
 
-	// for i := 0; i < len(links); i++ {
-	// for {
-
 	for l := range c {
 		go func(l string) {
 			time.Sleep(5 * time.Second)
